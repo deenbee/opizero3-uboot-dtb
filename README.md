@@ -19,7 +19,7 @@ sudo dd bs=1k seek=8 if=u-boot-sunxi-with-spl-opizero3-1.5gb.bin of=/dev/sdX
 ```
 sudo cp sun50i-h616-orangepi-zero3-4gb.dtb /mnt/boot/dtb/allwinner/sun50i-h616-orangepi-zero3.dtb
 ```
-- 然后使用下面的命令将u-boot的bin文件更新到tf卡中
+- Luego usa el siguiente comando para actualizar el archivo bin de u-boot en la TF:
 ```
 sudo dd bs=1k seek=8 if=u-boot-sunxi-with-spl-opizero3-4gb.bin of=/dev/sdX
 ```
